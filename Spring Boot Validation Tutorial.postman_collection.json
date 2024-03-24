@@ -7,33 +7,38 @@
 	},
 	"item": [
 		{
-			"name": "Test Validation",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"MR\",\r\n    \"name\": \"Sachith Ariythilaka\",\r\n    \"age\": 27\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
+			"name": "Test",
+			"item": [
+				{
+					"name": "Validation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"MR\",\r\n    \"name\": \"Sachith Ariythilaka\",\r\n    \"age\": 27\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/test/validation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"test",
+								"validation"
+							]
 						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:8085/test/validation",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8085",
-					"path": [
-						"test",
-						"validation"
-					]
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		}
 	]
 }
