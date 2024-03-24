@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "e0ec1f67-b26c-497f-ae11-5d9521e492ab",
+		"name": "Spring Boot Validation Tutorial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7110933"
+	},
+	"item": [
+		{
+			"name": "Test Validation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"MR\",\r\n    \"name\": \"Sachith Ariythilaka\",\r\n    \"age\": 27\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/test/validation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"test",
+						"validation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
