@@ -24,15 +24,16 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8085/test/validation",
+							"raw": "http://localhost:8090/api/validation/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8085",
+							"port": "8090",
 							"path": [
-								"test",
-								"validation"
+								"api",
+								"validation",
+								""
 							]
 						}
 					},
