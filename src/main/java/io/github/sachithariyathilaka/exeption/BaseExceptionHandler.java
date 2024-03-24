@@ -1,6 +1,6 @@
 package io.github.sachithariyathilaka.exeption;
 
-import io.github.sachithariyathilaka.resource.TestResource;
+import io.github.sachithariyathilaka.resource.ValidateResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -44,16 +44,19 @@ public class BaseExceptionHandler extends ResponseEntityExceptionHandler {
         try {
             String className = ex.getBindingResult().getObjectName();
 
-            if (className.equals("testResource")) {
-                TestResource testResource = new TestResource();
+            if (className.equals("validateResource")) {
+                ValidateResource validateResource = new ValidateResource();
+
                 for (FieldError error : ex.getBindingResult().getFieldErrors()) {
-                    sField = testResource.getClass().getDeclaredField(error.getField());
+                    sField = validateResource.getClass().getDeclaredField(error.getField());
                     sField.setAccessible(true);
-                    sField.set(testResource.getClass().cast(testResource), error.getDefaultMessage());
+                    sField.set(validateResource.getClass().cast(validateResource), error.getDefaultMessage());
 
                 }
-                return new ResponseEntity<>(testResource, HttpStatus.UNPROCESSABLE_ENTITY);
+
+                return new ResponseEntity<>(validateResource, HttpStatus.UNPROCESSABLE_ENTITY);
             }
+
             return new ResponseEntity<>("", HttpStatus.UNPROCESSABLE_ENTITY);
 
         } catch (Exception e) {

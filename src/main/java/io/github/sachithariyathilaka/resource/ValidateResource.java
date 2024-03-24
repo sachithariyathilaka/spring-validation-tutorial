@@ -8,7 +8,7 @@ import lombok.Setter;
 import javax.validation.constraints.*;
 
 /**
- * Test resource for the rest endpoint request body.
+ * Validate resource for the rest endpoint request body.
  *
  * @author  Sachith Ariyathilaka
  * @version 1.0.0
@@ -18,7 +18,7 @@ import javax.validation.constraints.*;
 @AllArgsConstructor
 @Getter
 @Setter
-public class TestResource {
+public class ValidateResource {
 
     @Pattern(regexp = "\\s*\\d*[1-9]+",message = "Should be numeric value")
     private String id;
