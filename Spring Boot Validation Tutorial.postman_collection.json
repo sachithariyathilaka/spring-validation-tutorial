@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Test",
+			"name": "Validation",
 			"item": [
 				{
 					"name": "Validation",
@@ -24,13 +24,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/api/validation/",
+							"raw": "http://localhost:8090/validation-tutorial/api/validation/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8090",
 							"path": [
+								"validation-tutorial",
 								"api",
 								"validation",
 								""
