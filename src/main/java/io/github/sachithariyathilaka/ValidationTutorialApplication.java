@@ -11,10 +11,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since   2024/03/24
  */
 @SpringBootApplication
-public class TutorialApplication {
+public class ValidationTutorialApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TutorialApplication.class, args);
+		SpringApplication.run(ValidationTutorialApplication.class, args);
 	}
 
 }
