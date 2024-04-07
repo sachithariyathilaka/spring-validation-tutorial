@@ -13,16 +13,16 @@
 
 	<!-- Core information -->
 	<groupId>io.github.sachithariyathilaka</groupId>
-	<artifactId>validation-tutorial</artifactId>
+	<artifactId>spring-validation-tutorial</artifactId>
 	<version>1.0.0</version>
 
 	<!-- Packaging information -->
 	<packaging>jar</packaging>
 
 	<!-- Project information -->
-	<name>Spring Boot Validation Tutorial</name>
-	<description>Tutorial project for spring boot validations</description>
-	<url>https://github.com/sachithariyathilaka/spring-boot-validation-tutorial</url>
+	<name>Spring Validation Tutorial</name>
+	<description>Tutorial project for spring validations</description>
+	<url>https://github.com/sachithariyathilaka/spring-validation-tutorial</url>
 	<inceptionYear>2024</inceptionYear>
 
 	<!-- License information -->
@@ -175,9 +175,9 @@
 
 	<!-- SCM information -->
 	<scm>
-		<url>https://github.com/sachithariyathilaka/spring-boot-validation-tutorial</url>
-		<connection>scm:git:https://github.com/sachithariyathilaka/spring-boot-validation-tutorial.git</connection>
-		<developerConnection>scm:git:git@github.com:sachithariyathilaka/spring-boot-validation-tutorial.git</developerConnection>
+		<url>https://github.com/sachithariyathilaka/spring-validation-tutorial</url>
+		<connection>scm:git:https://github.com/sachithariyathilaka/spring-validation-tutorial.git</connection>
+		<developerConnection>scm:git:git@github.com:sachithariyathilaka/spring-validation-tutorial.git</developerConnection>
 	</scm>
 
 	<!-- Reporting information -->

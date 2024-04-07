@@ -1,4 +1,4 @@
-# Spring Boot Validation Tutorial
+# Spring Validation Tutorial
 Spring boot validation tutorial project.
 
 * ### Technologies
@@ -17,7 +17,7 @@ Spring boot validation tutorial project.
 
   * Release: 1.0.0
   * Date: 2024/03/24
-  * Module: Spring Boot Validate Tutorial
+  * Module: Spring Validate Tutorial
   * Changes
     * Implements the test rest endpoint for test the validate functionality.
     * Implements the rest controller adviser for the handle request argument validator.
