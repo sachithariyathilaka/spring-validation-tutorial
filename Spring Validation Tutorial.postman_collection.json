@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "e0ec1f67-b26c-497f-ae11-5d9521e492ab",
-		"name": "Spring Boot Validation Tutorial",
+		"name": "Spring Validation Tutorial",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "7110933"
 	},
