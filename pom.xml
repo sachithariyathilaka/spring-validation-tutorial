@@ -42,6 +42,7 @@
 
 	<!-- Developer information -->
 	<developers>
+		
 		<developer>
 			<id>1</id>
 			<name>Sachith Ariyathilaka</name>
@@ -53,6 +54,7 @@
 			</roles>
 			<timezone>UTC +5:30</timezone>
 		</developer>
+		
 	</developers>
 
 	<!-- Property information -->
@@ -161,7 +163,6 @@
 	<!-- Build information -->
 	<build>
 
-
 		<!-- General information -->
 		<directory>${project.basedir}/target</directory>
 		<outputDirectory>${project.build.directory}/classes</outputDirectory>
@@ -179,10 +180,12 @@
 
 		<!-- Plugin information -->
 		<plugins>
+			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
 		</plugins>
 
 	</build>
