@@ -27,9 +27,11 @@
 
 	<!-- License information -->
 	<licenses>
+
 		<license>
 			<name>MIT Licence</name>
 		</license>
+
 	</licenses>
 
 	<!-- Organization information -->
@@ -86,12 +88,14 @@
 
 	<!-- Profile information -->
 	<profiles>
+
 		<profile>
 			<id>tutorial</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
 		</profile>
+
 	</profiles>
 
 	<!-- Repository information -->
@@ -157,11 +161,21 @@
 	<!-- Build information -->
 	<build>
 
+
 		<!-- General information -->
 		<directory>${project.basedir}/target</directory>
 		<outputDirectory>${project.build.directory}/classes</outputDirectory>
 		<sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
 		<finalName>${project.artifactId}-${project.version}</finalName>
+
+		<!-- Resource information -->
+		<resources>
+
+			<resource>
+				<directory>${basedir}/src/main/resources</directory>
+			</resource>
+
+		</resources>
 
 		<!-- Plugin information -->
 		<plugins>
