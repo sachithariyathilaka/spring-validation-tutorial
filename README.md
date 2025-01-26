@@ -10,13 +10,13 @@ Spring boot validation tutorial project.
   * Maven
   * Lombok
 
-* ### Configuration
-  * https://sachithariyathilaka.medium.com/spring-boot-validation-6e3cf6f6b0f9
+* ### Documentation
+  * [Read on Medium](https://sachithariyathilaka.medium.com/spring-boot-validation-6e3cf6f6b0f9)
   
 * ### Release Note
 
-  * Release: 1.0.0
-  * Date: 2024/03/24
+  * Version: 1.0.0
+  * Release Date: 2024/03/24
   * Module: Spring Validate Tutorial
   * Changes
     * Implements the test rest endpoint for test the validate functionality.
